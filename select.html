@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select_html</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="Fruits">Choose a fruit</label>
+        <select name="Fruits" id="Fruits">
+            <option value="banana">Banana</option>
+            <option value="apple">Apple</option>
+            <option value="cherry">Cherry</option>
+            <option value="grapes">Grapes</option>
+        </select><br>
+        <label for="frameworks">Choose your favourite frameworks</label><br>
+        <select name="frameworks" id="frameworks" multiple>
+            <optgroup label="Front_end">
+                <option value="react">React</option>
+                <option value="bootstrap">Bootstrap</option>
+                <option value="tailwind">Tailwind</option>
+                <option value="vue">Vue</option>
+                <option value="angular">Angular</option>
+
+            </optgroup>
+            <optgroup label="Back_end">
+                <option value="flask">Flask</option>
+                <option value="laravel">Laravel</option>
+                <option value="fastapi">Fast Api</option>
+                <option value="Django">Django</option>
+            </optgroup>
+        </select><br>
+        <label for="cars">Choose your favourite car brands</label><br>
+        <select name="cars" id="cars">
+            <option value="BMW">BMW</option>
+            <option value="Toyota" selected>Toyota</option>
+            <option value="Ford">Ford</option>
+            <option value="Honda">Honda</option>
+            <option value="Suzuki">Suzuki</option>
+        </select>
+    </form>
+</body>
+
+</html>
